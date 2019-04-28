@@ -1,17 +1,21 @@
 .large-hero {
     position: relative;
     border-bottom: 10px solid $mainBlue;
-
+     
 
     &__img {
         display: block;
     }
     &__text-content {
+        padding-top: 88px;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
         text-align: center;
         width: 100%;
+        @mixin atMedium {
+            padding-top: 60px;
+        }
     }
 
     &__title {
