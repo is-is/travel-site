@@ -8,9 +8,7 @@ class RevealOnScroll {
       this.createWayPoints();
   }
   hideInitially() {
-      console.log(this.itemsToReveal);
       this.itemsToReveal.addClass('reveal-item');
-      console.log(this.itemsToReveal); 
   }
   createWayPoints() {
       var that = this;
