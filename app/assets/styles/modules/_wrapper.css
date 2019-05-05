@@ -10,6 +10,9 @@
         max-width: 976px;
         
     }
+    &--narrow {
+        max-width: 480px;
+    }
     &--no-padding-untill-medium {
         
         padding-left: 0;
